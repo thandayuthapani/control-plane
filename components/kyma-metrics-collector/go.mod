@@ -3,9 +3,9 @@ module github.com/kyma-project/control-plane/components/kyma-metrics-collector
 go 1.17
 
 require (
-	github.com/gardener/gardener v1.48.0
+	github.com/gardener/gardener v1.50.1
 	github.com/gardener/gardener-extension-provider-aws v1.35.0
-	github.com/gardener/gardener-extension-provider-azure v1.27.1
+	github.com/gardener/gardener-extension-provider-azure v1.29.0
 	github.com/gardener/gardener-extension-provider-gcp v1.22.1
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/mux v1.8.0
@@ -16,8 +16,8 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.12.2
 	go.uber.org/zap v1.21.0
-	k8s.io/api v0.24.1
-	k8s.io/apimachinery v0.24.1
+	k8s.io/api v0.24.2
+	k8s.io/apimachinery v0.24.2
 	k8s.io/client-go v11.0.1-0.20190409021438-1a26190bd76a+incompatible
 )
 
